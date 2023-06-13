@@ -71,7 +71,7 @@ const routes = (
     >
       <TechDocsAddons>
         <ReportIssue />
-          <Mermaid />
+          <Mermaid config={{ theme: 'dark' }}/>
       </TechDocsAddons>
     </Route>
     <Route path="/create" element={<ScaffolderPage />} />

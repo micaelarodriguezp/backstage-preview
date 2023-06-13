@@ -61,7 +61,7 @@ const techdocsContent = (
   <EntityTechdocsContent>
     <TechDocsAddons>
       <ReportIssue />
-        <Mermaid />
+        <Mermaid config={{ theme: 'dark' }}/>
     </TechDocsAddons>
   </EntityTechdocsContent>
 );
