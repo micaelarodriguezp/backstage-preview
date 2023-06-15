@@ -2,14 +2,21 @@
 
 This is your newly scaffolded Backstage App, Good Luck!
 
-To start the app locally:
+### To start the app locally:
 
 ```sh
 yarn install
 yarn dev
 ```
 
-To start the app using docker:
+### To start the app using docker:
+
+Prerequisite: Before building this image, be sure to run the following commands in the repo root:
+```sh
+ yarn install
+ yarn tsc
+ yarn build:backend
+```
 
 ```sh
 docker image build . -f packages/backend/Dockerfile --tag backstage
